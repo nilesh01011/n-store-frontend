@@ -24,7 +24,7 @@ function ProductCard({ data: { attributes: p, id } }) {
                 </h2>
                 <div className="flex items-center text-black/[0.5]">
                     <p className="mr-2 text-lg font-semibold">
-                        &#8377;{p.price}
+                        &#8377;{new Intl.NumberFormat().format(p.price)}
                         {/* product prices */}
                     </p>
 

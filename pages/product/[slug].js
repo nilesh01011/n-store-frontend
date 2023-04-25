@@ -68,7 +68,7 @@ function ProductDetail({ product, products }) {
                         {/* PRODUCT PRICE */}
                         <div className="flex items-center">
                             <p className="mr-2 text-lg font-semibold">
-                                MRP : &#8377;{p.price}
+                                MRP : &#8377;{new Intl.NumberFormat().format(p.price)}
                                 {/* MRP : &#8377; 19 695.00 */}
                             </p>
                             {p.original_price && (
