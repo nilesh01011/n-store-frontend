@@ -62,7 +62,6 @@ function ProductDetail({ product, products }) {
                         {/* PRODUCT SUBTITLE */}
                         <div className="text-lg font-semibold mb-5">
                             {p.subtitle}
-                            {/* Men&apos;s Golf Shoes */}
                         </div>
 
                         {/* PRODUCT PRICE */}
